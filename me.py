@@ -143,3 +143,9 @@ while number > 0:
 
 reversed_digits = reversed(digits)
 print(" ".join(map(str, reversed_digits)))
+# Numbers in Python 
+
+x = 5
+y = x
+
+print(x + y)
