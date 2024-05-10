@@ -196,12 +196,12 @@ my_str = "      This is me    or   Jawad      "
 # cubed_number = [number ** 3 for number in range (1, 11)]
 
 # print(cubed_number)
-number = int(input("Enter any number: "))
-def even_number(num):
-     return [x ** 1 for x  in range (2, num + 1, 2)]
-result = even_number(number)
-for items in result:
-    print(items)
+# number = int(input("Enter any number: "))
+# def even_number(num):
+#      return [x ** 1 for x  in range (2, num + 1, 2)]
+# result = even_number(number)
+# for items in result:
+#     print(items)
     
 myDict = {
     "username": "Jawad Khan",
@@ -220,7 +220,6 @@ myDict = {
 
 
 
-# for i in range (1, 5):
-#     # print(i * "*")
-#     for j in range (i, 5):
-#         print(j * "*" )
+for i in range (1, 15):
+    print(i * " *", end= "\n ")
+    
