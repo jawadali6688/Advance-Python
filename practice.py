@@ -115,7 +115,7 @@
 #     print(char)
 
 
-my_str = "      This is me    or   Jawad      "
+# my_str = "      This is me    or   Jawad      "
 
 # print(my_str.replace("  ", " "))
 # print(my_str.strip())
@@ -203,11 +203,11 @@ my_str = "      This is me    or   Jawad      "
 # for items in result:
 #     print(items)
     
-myDict = {
-    "username": "Jawad Khan",
-    "depart": "AI",
-    "roll_no": "01003"
-}
+# myDict = {
+#     "username": "Jawad Khan",
+#     "depart": "AI",
+#     "roll_no": "01003"
+# }
 
 # print(myDict)
 # print(myDict["username"])
@@ -220,6 +220,46 @@ myDict = {
 
 
 
-for i in range (1, 15):
-    print(i * " *", end= "\n ")
+# for i in range (1, 15):
+#     print(i * " *", end= "\n ")
+# myDict["roll_no"] = "S24BARNIN7M01003"
+# print(myDict["username"])
+# print(myDict["roll_no"])
+
+# print(myDict.keys())
+# print(myDict.values())
+
+# for key, value in myDict.items():
+#     print(key+": "+value)
     
+# for i in myDict:
+#     print(i+": "+myDict[i])
+
+# if myDict["username"] in myDict:
+#     print("Yes Jawad Khan is here")
+
+# else:
+#     print("Jawad is not here")
+# myDict.clear()
+# new_dict = myDict.copy()
+# x = ("Jawad", "Khan")
+# y = "Hi"
+# print(myDict)
+# print(myDict.fromkeys(("Jawad Khan", "Dashti"), ("s24", "s32")))
+# print(new_dict)
+
+# myDict.pop("username")
+# myDict.popitem()
+# myDict.setdefault("myName", "Jawad")
+# myDict.update({"newName": "Khan", "mydefault": "Jawad Ali"})
+# print(myDict)
+
+
+my_tuple = (1,2,3,4)
+# print(my_tuple[0])
+# print(my_tuple[0:])
+# print(my_tuple[1:])
+# my_tuple[0] = 0
+# print(my_tuple)
+print(my_tuple.index(2))
+print(my_tuple.count(4))
